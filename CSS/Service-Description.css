@@ -1,0 +1,248 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 30 Jan 2023, 13:50:43
+    Author     : Machatine Augusto
+*/
+
+
+.close-corner-icon{
+    position: absolute;
+   /* margin-right: 600px;*/
+   margin-left: 58vw;
+   
+}
+.close-corner-icon img{
+    width: 80px;
+    cursor: pointer;
+    
+}
+
+.Service-Description{
+
+    width: 65%;
+   /* height: 500px;*/
+      background-color: white;
+     /* visibility: hidden;*/
+      display: none;
+     position: absolute;
+      z-index: 100;
+      /*top:50px;*/
+      left:250px;
+      padding-top:10px;
+      padding-bottom:25px;
+      
+}
+
+.Service{
+    display: flex;
+    /*padding:50px;*/
+    
+      margin: 10px;
+}
+
+.Service-Descriprion-content{
+    /*margin: 10px;*/
+   /* border:2px solid black;*/
+    padding:25px;
+}
+.Service-Description-title{
+   /* border: 2px solid black;*/
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Service-image-cont img{
+  width: 325px;
+  position: relative;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+.for-more-info{
+    text-align: center;
+}
+
+.Service-Descriprion-content ul{
+    list-style: none;
+    
+}
+.Service-Descriprion-content ul li{
+    display: inline-block;
+    color: white;
+    background-color: #081B2F;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 20px;
+    border:2px solid #081B2F;
+    
+}
+
+.Service-Descriprion-content p{
+    display: inline-block;
+    /*float: left;*/
+    margin: 5px;
+}
+
+ .Service-Descriprion-content h2{
+  display:inline-block;
+    margin: 5px;
+    background-color: #FFAA00;
+    color:white;
+   border-radius: 20px;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size:18px;
+}
+.price{
+    font-size: 35px;
+    color: #FFAA00;
+    font-weight: 600;
+    vertical-align: middle;
+    margin-left:15px;
+}
+
+/*Contact-me button on Service Description Section*/
+.Service-Description button{
+    background-color: #081B2F;
+    margin-left: 5px;
+}
+.Service-Description button a{
+    text-decoration: none;
+    color:white;
+}
+/*Servie Descroption contact-me button on hover*/
+.Service-Description button:hover{
+    background-color: #FFAA00;
+    cursor: pointer
+}
+.Service-Description-contact-button{
+    position: relative;
+  text-align-last: center;
+}
+
+/*Close*/
+.Close{
+    background-color: red;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-content: center;
+}
+#Barra1{
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    border-color: transparent;
+    width: 35px;
+    transform: rotate(45deg);
+     justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#Barra2{
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    border-color: transparent;
+    width: 35px;
+    transform: rotate(-45deg);
+   
+   
+}
+
+
+.Service-Description-title h2{
+    color:#081B2F;
+}
+.under-line-Service-description{
+    width: 75%;
+}
+
+@media screen and (max-width:400px){
+    
+    .Service-Description{
+
+    width: 80%;
+     position: absolute;
+      z-index: 100;
+      /*top:50px;*/
+      left:50px;
+      padding-top:10px;
+      padding-bottom:25px;
+      
+}
+
+   .Service{
+    display: block;
+    /*padding:50px;*/
+    
+      margin: 10px;
+} 
+  
+
+.Service-image-cont img{
+  width: 70vw;
+  margin-top: 15px;
+}
+
+.close-corner-icon{
+   /* margin-right: 600px;*/
+   margin-left: 65vw;
+   
+}
+.close-corner-icon img{
+    width: 30px;
+    cursor: pointer;
+    
+}
+.price{
+    font-size: 25px;
+    margin-left:10px;
+}
+
+}
+
+@media screen and (min-width:750px) and (max-width:1000px){
+    
+    
+   
+      .Service{
+    display: block;
+    
+      margin: 10px;
+} 
+ /*Service description container*/
+    .Service-Description{
+
+    width: 80%;
+     position: absolute;
+ 
+      left:10vw;   
+}
+
+.Service-image-cont img{
+  width: 70vw;
+  margin-top: 15px;
+  height: 50vh;
+}
+.Service-image-cont{
+    padding: 10px;
+}
+
+.close-corner-icon{
+   /* margin-right: 600px;*/
+   margin-left: 68vw;
+   
+}
+.close-corner-icon img{
+    width: 6vw;
+    
+}
+}

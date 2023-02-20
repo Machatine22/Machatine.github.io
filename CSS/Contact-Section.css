@@ -1,0 +1,204 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 22 Jan 2023, 18:31:07
+    Author     : Machatine Augusto
+
+This css file contains the styling of the contact Section
+
+*/
+
+
+/*Contact section spacing and background*/
+
+.Contact-Section{
+    width: 100%;
+ /*background-color: #517AA4;*/
+ margin: auto;
+ /*min-height: 10vh;*/
+ 
+ padding-top: 65px;
+ padding-bottom: 65px;
+ padding-left: 150px;
+ padding-right: 150px;
+ background-image: url("../IMGS/bg2.jpg");
+ background-size:cover;
+ background-position: center;
+}
+
+/*Row contact*/
+
+.row-contact{
+     float: left;
+    width: 45%;
+    min-height: 40vh;
+    margin: 15px;
+    position: relative;
+}
+
+/*The Contact-me Heading*/
+
+#Conta{
+    padding-top:5px;
+    padding-bottom:30px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+/*Roro, div that holds all the contact section elements and its contained in the contact-section*/
+
+.roro{
+ 
+    background-color:white;
+   min-height: 67vh;
+}
+
+
+
+/* The form*/
+
+/*The spacing of the form field*/
+
+.form-field{
+    padding: 15px;
+    background-color: #ccccff;
+    border: none;
+    width: 275px;
+
+}
+/* The form section*/
+.fields{
+    position: relative;
+    left: 90px;
+   
+}
+
+/*The submit Button*/
+#Submit-button{
+    position: relative;
+    left:60px;
+    margin-top: 10px;
+}
+
+/*The submit image*/
+
+.contact-image img{
+    display: block;
+    position: relative;
+    width: 500px;
+    height: 400px;
+    border-radius:20px;
+}
+
+/*Reponsividade*/
+@media screen and (max-width:400px){
+ 
+    .Contact-Section{
+       
+ /*min-height: 10vh;*/
+ padding-top: 35px;
+ padding-bottom: 35px;
+ padding-left:50px;
+ padding-right: 50px;
+ 
+}
+
+#Conta{
+  padding: 5px;
+  text-align: center;
+  
+}
+.row-contact-conteiner{
+    display: block;
+}
+.row-contact{
+    float: none;
+}
+
+.contact-image img{
+   
+    width: 75vw;
+    height: 75vw;
+    padding-top: 15px;
+}
+
+.form-field{
+    padding: 15px;
+    background-color: #ccccff;
+    border: none;
+    width: 60vw;
+
+}
+/* The form section*/
+.fields{
+    position: relative;
+    left: 35px;
+   
+}
+
+/*The submit Button*/
+#Submit-button{
+    position: relative;
+    left:30px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.Contact-Section{
+
+ margin: auto;
+
+ 
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-left: 20px;
+ padding-right: 20px;
+
+}
+    }
+    
+    @media screen and (min-width:750px) and (max-width:1000px){
+        
+      .contact-image img{
+   
+    width: 40vw;
+    height: 45vw;
+    padding-top: 15px;
+}  
+
+.Contact-Section{
+    width: 100%;
+ /*background-color: #517AA4;*/
+ margin: auto;
+ /*min-height: 10vh;*/
+ 
+ padding-top: 3vw;
+ padding-bottom: 3vw;
+ padding-left: 4vw;
+ padding-right: 4vw;
+
+}
+
+/* The form section*/
+.fields{
+    position: relative;
+    left: 1vw;
+   
+}
+
+/*The submit Button*/
+#Submit-button{
+    position: relative;
+    left:7vw;
+    margin-top: 10px;
+}
+
+.roro{
+   min-height: 71vh;
+}
+
+    }
+    
+ 

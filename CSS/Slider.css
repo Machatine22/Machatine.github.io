@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 25 Jan 2023, 12:14:38
+    Author     : Machatine Augusto
+
+*/
+
+.Offer-Section{
+    /* background-image:  url("../IMGS/bg2.jpg");*/
+    background-position: center;
+}
+
+.cont{
+    display:flex;
+ /*  height: 70vh;*/
+    justify-content: center;
+    align-items: center;
+   
+}
+.Silder-Wrapper{
+    width: 500px;
+    height: 300px;
+      overflow: hidden;
+      background-color: white;
+}
+
+.inner-wraper{
+    width: 500%;
+    height: 100%;
+    position: relative;
+    left:-100%; 
+     
+    
+}
+
+
+.slide{
+    width:calc(100%/5);
+    height: 100%;
+    float:left;
+    font-size:100px;
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+/*Imagens*/
+.slide img{
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    border-radius: 30px;
+    
+}
+
+.button{
+    width:30px;
+    height: 30px;
+    border-top:2px solid black;
+    position: absolute;
+    cursor: pointer;
+}
+.prev{
+    border-left: 2px solid black;;
+    left: 25%;
+    transform: rotate(-45deg);
+}
+
+.next{
+    border-right: 2px solid black;;
+    right: 25%;
+      transform: rotate(45deg);
+}
+
+.inner-wraper h2{
+    font-size: 33px;
+    color: #081B2F;
+    position: relative;
+    top:100px;
+  
+}
+.Silder-Wrapper{
+    /*border: 1px solid black;*/
+    border-radius: 20px;
+}

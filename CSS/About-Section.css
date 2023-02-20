@@ -1,0 +1,217 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 22 Jan 2023, 00:30:03
+    Author     : Machatine Augusto
+*/
+
+/*The about Section*/
+
+.About-section{
+/*min-height: 70vh;*/
+ padding: 25px;
+ /* background-color: #cccccc;*/
+
+}
+
+/*About content*/
+.About-content{
+width: 100%;
+padding-left:100px;
+padding-right:100px;
+padding-top:15px;
+padding-bottom:15px;
+border-radius: 25px;
+/*background-color: white;*/
+font-family: Georgia;
+ background-image: url("../IMGS./ab.jpg");
+ 
+}
+
+
+
+/*Image Conteiner*/
+.Skills-conteiner{
+ width: 100%;
+
+       /* background-color: #f7f7f7;*/
+}
+/*
+.Skills-conteiner img{
+    display: block;
+   max-height: 20vh;
+}
+*/
+/*Section that holds both about sections*/
+
+.row{
+ /*float:left;*/
+    width: 100%;
+   
+    }
+
+   .Skills .Skills-image{
+        width: 100%;
+        top:0px;
+        left: -25px;
+        position:relative;
+    }
+    .Skills-image img{
+        width: 650px;
+        height: 450px;
+      top:0;
+      left: 0;
+        
+    }
+    
+   
+    .Skills{
+        /*float:left;*/
+        /*width: 50%;*/
+       background-color:  #f7f7f7;
+       display: flex;
+       
+    }
+   
+    
+    .Skills-content{
+     /*width: 100%;*/
+        width: 100%;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left:50px;
+     padding-right:25px;
+     line-height: 30px;
+     position:relative;
+     
+    }
+    
+    .Skills-content li{
+     list-style: none;
+     color:  #081B2F;
+     font-weight: 600;
+     font-size: 16px;
+     padding :15px;
+     margin:5px;
+    background-color:#081B2F;
+      border-radius: 25px;
+      color:white;
+      display: inline-block;
+      
+    }
+    
+    body{
+        font-family: Georgia;
+    }
+   
+    
+    /*Responsividade Andriod e Tablet*/
+    
+    /*Android*/
+    
+        @media screen and (max-width:400px){
+        
+        .Skills-image{
+        width: 100%;
+        top:0px;
+       /* left: -25px;*/
+        position:relative;
+        display:none;
+    }
+        
+    .About-content{
+width: 100%;
+padding-left:12px;
+padding-right:12px;
+padding-top:15px;
+padding-bottom:15px;
+border-radius: 25px;
+/*background-color: white;*/
+font-family: Georgia;
+ /*background-image: url("../IMGS./ab.jpg");*/
+ 
+}
+
+
+.Skills-content{
+    padding: 0;
+}
+  .Skills{
+       display: block;
+       
+       
+    }
+  
+
+  
+    
+    .Skills-content li{
+     font-weight: 100;
+     font-size: 13px;
+     padding :10px;
+     /*margin:5px;*/
+      
+    }
+      .Skills{
+     
+       background-color:  white;
+     
+       
+    }
+   
+
+    }
+    
+    /*tablet*/
+     @media screen and (min-width:750px) and (max-width:1000px){
+        
+         .Skills .Skills-image{
+       /* width: 100%;
+       /* top:0px;
+       /* left: -25px;
+        position:relative;*/
+    }
+      
+    
+    .About-content{
+width: 100%;
+padding-left:100px;
+padding-right:100px;
+padding-top:15px;
+padding-bottom:15px;
+border-radius: 25px;
+/*background-color: white;*/
+font-family: Georgia;
+ /*background-image: url("../IMGS./ab.jpg");*/
+
+ 
+}
+.Skills{
+    display:block;
+}
+
+    .Skills .Skills-image{
+        width: 100%;
+        top:0px;
+        /*left: 30px;*/
+        position:relative;
+    }
+    .Skills-image img{
+        width: 100vw;
+        height: auto;
+        
+    }
+
+  
+    
+    .Skills-content li{
+     font-weight: 100;
+     font-size: 16px;
+     padding :10px;
+     margin:5px;
+      
+    }
+
+    }

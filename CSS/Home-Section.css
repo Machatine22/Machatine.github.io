@@ -1,0 +1,200 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 21 Jan 2023, 15:16:55
+    Author     : Machatine, Augusto
+
+ This css file contains the styling of the Home section
+*/
+
+/*Home Section*/
+
+.Home-Section{
+ background-image: url("../IMGS/b.JPG");
+min-height: 88vh;
+ width: 100%;
+ left:0;
+ background-position: center;
+ padding: 0 20px;
+ z-index: 1;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ 
+}
+
+
+/*Home Section overlay color*/
+.Home-Section :before{
+    content: " ";
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom:0;
+    background-color: black;
+    opacity: 0.0;
+    z-index: -1;
+}
+
+/*Home-Section Content*/
+.align-items-center{
+    align-items: center;
+    
+}
+
+/* The main text of the web*/
+.Home-Section .home-content{
+    text-align: left;
+    position: absolute;
+    flex:0 0 100%;
+    top:160px;
+    left:100px;
+    max-width: 100%;
+    
+}
+
+
+.Home-Section .home-content h4{
+    font-size: 25px; /*era 25px*/
+    color:white;
+    text-align: center;
+}
+/*The tag line*/
+
+#dev{
+   color:#183049;
+}
+
+/*The Home content H1*/
+
+.Home-Section .home-content h1{
+    font-size: 45px; /*era 45px*/
+    
+    color: #081B2F;
+   text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+/*The arrow down button*/
+.Home-Section .Scroll-down{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -15px;
+    animation: scrolldown 2s ease infinite;
+}
+
+/* The moviment of the scroll down arrow*/
+@keyframes scrolldown{
+    
+    0%,20%,50%,80%,100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-40px);
+    }
+    60%{
+        transform: translateY(-20px);
+    }
+}
+
+/* The scroll down arrow param*/
+
+.Home-Section .Scroll-down img{
+    width: 45px;
+    display: block;
+    margin: 2px auto;
+    
+}
+
+/*The Home read more button*/
+#Home-Button{
+    position: absolute;
+    align-items: center;
+    left:275px;
+}
+
+/*Responsividade*/
+@media screen and (max-width:400px){
+    
+    .Home-Section .home-content{
+    text-align: center;
+    position: absolute;
+    flex:0 0 100%;
+    top:75px;
+    left:7vw;
+    max-width: 100%;
+
+    
+}
+.Home-Section{
+    background-size:cover;
+    background-position: top;
+  min-height: 55vh;
+   background-attachment: scroll;
+     text-align: center;
+}
+.Home-Section .home-content h4{
+    font-size: 4vw;
+    color:white;
+    text-align: center;
+}
+
+.Home-Section .home-content h1{
+    font-size: 6vw;
+      text-align: center;
+    color: #081B2F;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.Home-Section .Scroll-down{
+display: none;
+
+}
+/*Home Section overlay colo
+.Home-Section :before{
+   display: none;
+}*/
+/*removing the read more button for mobile devices*/
+.Home-Section .Button{
+    display: none;
+}
+
+/*Alining the home content in the center*/
+
+}
+
+@media screen and (min-width:750px) and (  max-width:1000px){
+    
+    .Home-Section .home-content{
+    text-align: center;
+    left:18vw;
+  
+}
+
+.Home-Section .home-content h4{
+    font-size: 2.5vw;
+
+}
+
+.Home-Section .home-content h1{
+    font-size: 4vw;
+    
+}
+#Home-Button{
+   
+    left:29vw;
+  
+}
+
+}

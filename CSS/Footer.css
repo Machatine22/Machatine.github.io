@@ -1,0 +1,119 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 22 Jan 2023, 18:53:04
+    Author     : Machatine Augusto
+
+
+This css file contains the css of footer section */
+
+
+/*footer section container*/
+
+.footer-section .container{
+    width: 100%;
+}
+
+/* Row footer */
+.footer-section .row-footer{
+    width: 50%;
+    float:left;
+  padding-top: 25px;
+     /*   border-radius: 40px;*/
+  /*   font-weight: 600;*/
+     color:#081B2F;
+}
+
+/*The h3 Headings*/
+.row-footer h3{
+    color: #183049;
+    font-size:28px;
+     text-align: center;
+}
+/* The div that contains the social media links*/
+.pull{
+    position:relative;
+    left:100px;
+    margin-top:50px;
+}
+
+/*Underline line before contact and social media headings*/
+
+.Footer-line{
+    width:75%;
+    
+}
+
+/*The footer section copwrite*/
+
+.footer-section .copwrite{
+    text-align: center;
+    background-color:#517AA4;
+    float: left;
+    width: 100%;
+    color:white;
+   background-color: #183049;
+  
+}
+
+/*The styling of the socil media UL*/
+
+.Social-media ul{
+    list-style: none;
+    line-height: 25px;
+}
+
+.Social-media ul li{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+/*The section with the contacts*/
+
+.Contacts p{
+      padding-top:5px;
+    padding-bottom: 5px;
+}
+
+/*The icons of the social media links*/
+
+.row-footer img{
+   display:inline-block;
+    width: 30px;
+    margin-right: 25px;
+    vertical-align: middle;
+    
+}
+
+
+/*Responsividade*/
+@media screen and (max-width:400px){
+   
+    .footer-section .row-footer{
+    width: 100%;
+    float:none;
+  padding-top: 25px;
+     /*   border-radius: 40px;*/
+  /*   font-weight: 600;*/
+     color:#081B2F;
+}
+
+.pull{
+    left:10px;
+    margin-top:20px;
+}
+
+.row-footer h3{
+    
+    font-size:22px;
+    
+}
+
+.Contacts p{
+      padding-top:5px;
+    padding-bottom: 5px;
+    margin-left: 25px;
+}
+
+}

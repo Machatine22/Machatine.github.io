@@ -1,0 +1,231 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 21 Jan 2023, 14:31:10
+    Author     : Augusto Machatine
+*/
+
+/*The header position and spacing*/
+
+.header{
+   position: relative;
+   margin:0;
+    width:100%;
+    padding-top:28px;
+    padding-bottom: 28px;
+    left:0;
+    top:0;
+    font-family: Georgia;
+}
+
+/*The Nav Bar posistoin and spacing*/
+
+.nav{
+   
+    padding: 0 15px;
+    margin-left: 700px;
+    margin-top: -50px;
+}
+
+/* The nav bar elements styling*/
+
+ .header .nav ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    
+}
+.header .nav ul li{
+    display: inline-block;
+   margin-left: 30px;
+        
+}
+
+
+/*header Brand name*/
+
+.header .Brand-name{
+     padding-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+
+.header .Brand-name a{
+    text-decoration: none;
+    font-size:25px;
+    /*color:#183049;*/
+    color:#081B2F;
+    font-weight: 900;
+    letter-spacing: 2px;
+   transition: all 0.5s ease;  
+}
+
+/*The links in the nav bar*/
+.header .nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:#183049;
+    display: block;
+    transition:  all 0.5s ease;
+    
+}
+
+/*The nav bar links on hover*/
+.header .nav ul li a:hover{
+   
+    color:#FFAA00;
+}
+
+/*The  brand name on hover*/
+.header .Brand-name a:hover{
+    color:#FFAA00;
+}
+
+button{
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+/* General caracteristics of the website*/
+
+/*Nav bar for android*/
+.dropdown{
+    display: none;
+}
+.dropdown .dropbtn:hover{
+    background-color: #081B2F;
+    cursor:pointer;
+}
+ .dropdown-content{
+                display: none;
+                position: relative;
+               /* background-color: #f9f9f9;*/
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index:10;
+                
+            }
+            
+            .dropdown-content a{
+                float: none;
+                color: #081B2F;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            
+            .dropdown-content a:hover{
+                background-color:#FFAA00; 
+                color:white;
+            }
+/* responsividade */
+
+/*Android MAX WIDTH 350px*/
+
+@media screen and (max-width:400px){
+    
+      .nav{
+    display: none;
+
+}
+
+     .header .Brand-name a{
+  
+    font-size:15px;
+    color:#183049;
+}
+
+.dropdown{
+    display:block;
+    position: relative;
+   /* left: 250px;*/
+   /* margin-bottom: 10px;*/
+   /*top:-32px;*/
+   /*vertical-align: middle;*/ 
+padding: 0;   
+}
+.header .Brand-name{
+    
+        padding-top: 20px;
+    padding-left: 10px;
+    left:38vw;
+    position: absolute;
+    font-size:5vw;
+}
+
+.header{
+        
+        padding: 20px;
+        
+    }
+    
+  
+}
+
+@media screen and (min-width:401px) and (max-width:750px){
+   
+    .header{
+        
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+
+.dropdown{
+    display: inline;
+    position: relative;
+    /*left: ?*/
+    margin-bottom: 10px;
+    top:-20px;
+    
+}
+
+.nav{
+    display: none;
+}
+}
+
+/*Tablet MAX WIDTH 900px*/
+
+
+@media screen and (min-width:750px) and (  max-width:1000px){
+    
+    .header{
+        
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+  
+ .header .Brand-name a{
+  
+    font-size:2.5vw;
+    color:#183049;
+  left:60vw;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+   transition: all 0.5s ease;
+   position: absolute;
+
+}
+.dropdown{
+    display: inline;
+    position: relative;
+   margin:15px;
+   margin-left:25px;
+    top:-18px;
+    
+}
+
+.nav{
+    display: none;
+}
+}
