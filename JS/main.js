@@ -46,7 +46,7 @@ $(".dropdown-content").fadeToggle(525);
    $(".dropbtn").click(function(){
       
       
-      $(".dropbtn").on("touch ", function(){*/
+      $(".dropbtn").on("tap", function(){
        $(".dropdown-content").fadeToggle(525);
       
      
@@ -54,7 +54,7 @@ $(".dropdown-content").fadeToggle(525);
       
        $(".dropdown-content").css("display","none");
       
-   });*/
+   });
    });
     
 });
