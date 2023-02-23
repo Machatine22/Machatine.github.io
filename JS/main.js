@@ -36,7 +36,11 @@ $(function(){
         
     });
     /*End of content slider*/
-    
+    $(".dropbtn").on("tap", function (){
+$(".dropdown-content").fadeToggle(525);
+
+}
+
     
     /*Android and Tablet menu buttom activation*/
    $(".dropbtn").click(function(){
