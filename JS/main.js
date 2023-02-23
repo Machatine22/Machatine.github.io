@@ -36,7 +36,7 @@ $(function(){
         
     });
     /*End of content slider*/
-    $(".dropbtn").tap(function (){
+    $(".dropbtn").vclick(function (){
 $(".dropdown-content").fadeToggle(525);
 
 }
